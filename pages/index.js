@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Link from 'next/Link'
+import Link from 'next/link'
 import { getSortedPostsData } from '../lib/posts';
 
 export default function Home({ allPostsData }) {
