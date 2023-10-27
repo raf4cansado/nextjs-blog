@@ -10,6 +10,9 @@ export default function Home({ allPostsData }) {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <h2>
+        <Link href="/posts/first-post">Go to Posts</Link>
+      </h2>
 
       <ul >
         {allPostsData.map(({ id, date, title }) => (

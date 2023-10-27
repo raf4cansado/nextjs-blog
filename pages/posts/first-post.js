@@ -18,7 +18,7 @@ export default function Home() {
                     console.log(`script loaded correctly, window.FB has been populated`)
                 }
             />
-            <h1>First Post iaa</h1>
+            <h1>First Post </h1>
             <h2>
                 <Link href="/">Back to home</Link>
             </h2>
